@@ -46,12 +46,12 @@ The following ports will be exposed on the host:
 2. Click “New alert rule”, which also allows you to configure recording rules.
 
 Configure the recording rule:
-1. Type sum:up in the “Rule name” field.
-2. Choose Cortex managed recording rule in the “Rule type” field. Make sure to select “managed recording rule” and not “managed alert rule.”
-3. Choose Mimir in the “Select data source” field.
-4. Type example-namespace in the “Namespace” field.
-5. Type example-group in the “Group” field.
-6. Type sum(up) in the “Create a query to be recorded” field.
+1. Type `sum:up` in the “Rule name” field.
+2. Choose `Cortex managed recording rule` in the “Rule type” field. Make sure to select “managed recording rule” and not “managed alert rule.”
+3. Choose `Mimir` in the “Select data source” field.
+4. Type `example-namespace` in the “Namespace” field.
+5. Type `example-group` in the “Group” field.
+6. Type `sum(up)` in the “Create a query to be recorded” field.
 7. From the upper-right corner, click the Save and Exit button.
 
 Your `sum:up` recording rule will show the number of Mimir instances that are up, meaning reachable to be scraped. The rule is now being created in Grafana Mimir ruler and will be soon available for querying:
