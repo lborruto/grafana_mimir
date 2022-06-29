@@ -17,7 +17,7 @@ cd mimir
 - Use `cd` to navigate to the docker compose file:
 
 ```
-cd cd docs/sources/tutorials/play-with-grafana-mimir/
+cd docs/sources/tutorials/play-with-grafana-mimir/
 ```
 
 ## Start Grafana Mimir & dependencies
