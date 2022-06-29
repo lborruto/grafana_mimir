@@ -92,5 +92,4 @@ docker-compose start mimir-3
 
 Et voilà!
 
-
-
+Luca BORRUTO - @lborruto
